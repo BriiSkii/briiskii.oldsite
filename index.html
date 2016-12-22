@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>BSW</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+
+  <!-- Main -->
+
+  <div id="main">
+    <div class="logo">
+      <p>Brianna.</p>
+    </div>
+
+    <div class="buttons">
+      <p><button id="resume" class="top-left-button move" data-toggle="modal" data-target="#resumeModal">Resume</button></p>
+      <p><button id="portolio" class="top-left-button move" data-toggle="modal" data-target="#portfolioModal">Portfolio</button></p>
+      <p><button id="contact" class="top-left-button move" data-toggle="modal" data-target="#contactModal">Contact</button></p>
+    </div>
+
+    <div id="foot">
+      <p>Copyright 2016 &copy;</p>
+    </div>
+
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Contact Me</h4>
+        </div>
+        <div class="modal-body">
+          bwhit034@odu.edu
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal -->
+  <div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Portfolio</h4>
+        </div>
+        <div class="modal-body">
+          Coming Soon
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resume Modal -->
+  <div class="modal fade bs-example-modal-lg" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Resume</h4>
+        </div>
+        <div class="modal-body">
+
+          <h3>Web Development</h3>
+          <ul id="first">
+            <li>HTML/CSS</li>
+            <li>JavaScrpt</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+          </ul>
+
+          <hr />
+
+          <h3>Tech Support</h3>
+          <ul id="second">
+            <li>Windows 7/8/10</li>
+            <li>Windows Server 2008/2012</li>
+            <li>Basic Linux</li>
+          </ul>
+
+          <hr />
+
+          <h3>Certifications</h3>
+          <ul id="third">
+            <li>MCITP: 70-410</li>
+
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
